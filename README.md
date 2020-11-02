@@ -37,14 +37,14 @@ Optional arguments include:
 ```
  -n  number of components in the mixture (default: 3)
  -mu range of variability to change the mean of each component in the mixture (default: [0.03 0.06 0.08])
- -s  range of variability to change the standard deviation of each component in the mixture (default: [0.012 0.011 0
-.015])
+ -s  range of variability to change the standard deviation of each component in the mixture 
+(default: [0.012 0.011 0.015])
  -p  percentiles to use when clipping the intensities. (default [1 99]).
 
 ```
 
-Let's say you want to run the method using 4 components, to allow the mean of each component to change by (0.1,0.2,0
-.3,0.4), the standard deviation by (0.01, 0.02, 0.03, 0.04), and to clip the intensity percentiles at (0.1, 99.9):
+Let's say you want to run the method using 4 components, to allow the mean and standard deviation of each component
+ to change by (0.1, 0.2, 0.3, 0.4) and (0.01, 0.02, 0.03, 0.04), and to clip the intensity percentiles at (0.1, 99.9):
 
 
 ```
