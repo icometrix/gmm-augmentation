@@ -1,0 +1,18 @@
+## Folders to ignore
+.ipynb_checkpoints
+.idea
+results/
+data/
+
+## Filetypes to ignore
+*.pyc
+*.pdf
+*.xml
+*.json
+*.nii
+*.nii.gz
+*.code-workspace
+*.save
+~*#
+
+
