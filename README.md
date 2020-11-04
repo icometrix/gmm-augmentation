@@ -42,7 +42,7 @@ Optional arguments include:
  -p  percentiles to use when clipping the intensities. (default [1 99]).
 
 ```
-
+The default range of variability to change the values of the components were estimated on a real clinical dataset, and are used as default to represent the method as submitted to ISBI. For the demo, if you wish to use a different number of components you also need to define the new values of -mu and -s.
 Let's say you want to run the method using 4 components, to allow the mean and standard deviation of each component
  to change by (0.1, 0.2, 0.3, 0.4) and (0.01, 0.02, 0.03, 0.04), and to clip the intensity percentiles at (0.1, 99.9):
 
@@ -62,7 +62,7 @@ The method performs better if images have been bias-field corrected, but this is
 When exploring the method it is also possible to set a fixed variation term for each of the components (see 
 function generate_gmm_image() in augmentation_utils.py).
 
-The default range of variability to change the values of the components were estimated on a real clinical dataset.
+
 
 
 ---------------------------------- 
