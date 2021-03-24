@@ -1,10 +1,11 @@
 # An augmentation strategy to mimic multi-scanner variability in MRI
 
 Implementation of a data augmentation (DA) approach with the aim of reducing the scanner bias of models trained on 
-single-scanner data. This method was submitted to the ISBI 2021 conference, and is pending review. 
+single-scanner data. This method was accepted for oral presentation at the International Symposium on Biomedical Imaging (ISBI) 2021. 
 
 > Meyer M.I. , de la Rosa E., Pedrosa de Barros N., Paolella R., Van Leemput K. , Sima D.M.. 
-> An augmentation strategy to mimic multi-scanner variability in MRI
+> [An augmentation strategy to mimic multi-scanner variability in MRI](https://arxiv.org/abs/2103.12595)
+> International Symposium on Biomedical Imaging (ISBI) 2021
 
 
 Method
